@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "type": "CSPM",
+      "name":"CSPM Executive dashboard",
+      "tabName":"CSPM",
+      "id":1,
+      "widgets": [
+        {
+          "id": 1,
+          "type": "Chart",
+          "name": "Cloud Accounts",
+          "tabType":"CSPM",
+          "data": [
+            { "label": "Not Connected", "value": 2, "color": " #aab8d6"},
+            { "label": "Connected", "value": 2, "color": "#283c87" }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "Chart",
+          "name": "Cloud Account Risk Assessment",
+          "tabType":"CSPM",
+          "data": [
+            { "label": "Failed", "value": 1689, "color": "red" },
+            { "label": "Warning", "value": 681, "color": "orange"},
+            { "label": "Not available", "value": 36, "color": "purple" },
+            { "label": "Passed", "value": 7253, "color": "green"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "CWPP",
+      "name":"CWPP Cloud Account Risk Assessment",
+      "tabName":"CWPP",
+      "id":2,
+
+      "widgets": [
+        {
+          "id": 3,
+          "type": null,
+          "tabType":"CWPP",
+          "name": "Top 5 Namespace Specific Alerts",
+          "data": []
+        },
+        {
+          "id": 4,
+          "tabType":"CWPP",
+          "type": null,
+          "name": "Workload Alerts",
+          "data": []
+        }
+      ]
+    },
+    {
+      "type": "RS",
+      "name":"Registey Scan",
+      "tabName": "Ticket",
+      "id":3,
+      "widgets": [
+        {
+          "id": 5,
+          "type": null,
+          "tabType":"RS",
+          "name": "Image Risk Assessment",
+          "data": []
+        },
+        {
+          "id": 6,
+          "type": null,
+          "tabType":"RS",
+          "categoryName":"Registey Scan",
+          "name": "Image Security Issues",
+          "data": []
+        }
+      ]
+    }
+  ]
+}
